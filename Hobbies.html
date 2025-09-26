@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Barack's Hobbies</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e6f2ff; /* light blue background */
+      color: #1a1a1a;
+    }
+
+    /* Side navigation */
+    .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #002244; /* deep blue */
+      overflow-x: hidden;
+      padding-top: 20px;
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .sidenav a {
+      color: white;
+      padding: 16px 24px;
+      text-decoration: none;
+      display: block;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+
+    .sidenav a:hover {
+      background-color: #0057b8;
+      color: white;
+    }
+
+    /* Content */
+    .content {
+      margin-left: 200px;
+      padding: 40px 30px;
+      max-width: 800px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+
+    ul.hobby-list {
+      list-style-type: square;
+      font-size: 20px;
+      line-height: 1.8;
+      color: #003366;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      padding-left: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 700px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    @media screen and (max-width: 768px) {
+      .sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .content {
+        margin-left: 0;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidenav">
+    <a href="Home.html">Home</a>
+    <a href="About me.html">About Me</a>
+    <a href="Hobbies.html">Hobbies</a>
+    <a href="Interest.html">Interests</a>
+    <a href="Sites.html">My Favorite Sites</a>
+  </div>
+
+  <div class="content">
+    <h2>My Hobbies</h2>
+    <ul class="hobby-list">
+      <li><strong>Coding:</strong> I love building websites and exploring programming languages.</li>
+      <li><strong>Playing Soccer:</strong> It’s a great way to stay active and have fun with friends.</li>
+      <li><strong>Reading Sci-Fi Books:</strong> I enjoy diving into futuristic stories and imagining new worlds.</li>
+    </ul>
+    <img class="img-fluid;" src="OIP.png" alt="Hobby related image" />
+  </div>
+
+</body>
+</html>

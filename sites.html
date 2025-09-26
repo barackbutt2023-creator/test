@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Favorite Sites</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e6f2ff;
+  color: #1a1a1a;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #002244;
+  overflow-x: hidden;
+}
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px 24px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #0057b8;
+  color: #fff;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding: 40px 30px;
+  max-width: 900px;
+}
+
+h2 {
+  text-align: center;
+  color: #003366;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+a.inline-link {
+  color: #0057b8;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .content {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="Home.html">Home</a>
+  <a href="About me.html">About me</a>
+  <a href="Hobbies.html">Hobbies</a>
+  <a href="Interest.html">Interest</a>
+  <a href="Sites.html">My Favorite Sites</a>
+</div>
+
+<div class="content">
+
+  <p>
+    I like 
+    <a href="https://www.youtube.com" target="_blank" class="inline-link">YouTube</a>, 
+    <a href="https://www.instagram.com" target="_blank" class="inline-link">Instagram</a>, and 
+    <a href="https://www.tiktok.com" target="_blank" class="inline-link">TikTok</a>.
+  </p>
+</div>
+
+<img class="img-fluid;" src="stick-figure-recording-blog-hand-drawn-icon-of-vlog-vector.png" alt="Sleeping peacefully"/>
+
+
+</body>
+</html>

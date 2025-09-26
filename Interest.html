@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Interests</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e6f2ff; /* Soft blue background to match About page */
+      color: #1a1a1a;
+    }
+
+    /* Side navigation */
+    .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #002244; /* matching the deep blue */
+      overflow-x: hidden;
+    }
+
+    .sidenav a {
+      color: white;
+      padding: 16px 24px;
+      text-decoration: none;
+      display: block;
+      font-size: 18px;
+      transition: background 0.3s;
+    }
+
+    .sidenav a:hover {
+      background-color: #0057b8;
+      color: #fff;
+    }
+
+    /* Main content */
+    .content {
+      margin-left: 200px;
+      padding: 40px 30px;
+      max-width: 900px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #003366;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 700px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    @media screen and (max-width: 768px) {
+      .sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .content {
+        margin-left: 0;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidenav">
+    <a href="Home.html">Home</a>
+    <a href="About me.html">About me</a>
+    <a href="Hobbies.html">Hobbies</a>
+    <a href="Interest.html">Interests</a>
+    <a href="Sites.html">My Favorite Sites</a>
+  </div>
+
+  <div class="content">
+    <h2>My Interests</h2>
+    
+    <p>I love to sleep — it's one of my favorite ways to recharge and dream big!</p>
+    <img class="img-fluid;" src="blog.png" alt="Sleeping peacefully" />
+    
+    <p>Besides that, I'm really into technology and coding. Exploring how things work behind the scenes excites me and keeps my curiosity alive.</p>
+    
+    <p>I'm also passionate about creativity — whether that's drawing, writing, or brainstorming new ideas. It helps me express myself and relax.</p>
+
+    <p>Lastly, I enjoy spending time outdoors, especially when I can go for a walk, ride a bike, or just appreciate nature.</p>
+  </div>
+
+</body>
+</html>

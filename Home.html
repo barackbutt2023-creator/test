@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barack's Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #e6f0ff; /* Light modern blue */
+      color: #1a1a1a;
+    }
+
+    /* Sidebar */
+    .sidenav {
+      height: 100%;
+      width: 220px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #002b5c; /* Deep modern blue */
+      padding-top: 20px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+    }
+
+    .sidenav a {
+      padding: 15px 25px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #ffffff;
+      display: block;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .sidenav a:hover {
+      background-color: #0057b8; /* Lighter blue on hover */
+      color: #ffffff;
+    }
+
+    /* Main content */
+    .content {
+      margin-left: 240px;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 800px;
+    }
+
+    img {
+      margin-top: 30px;
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    @media screen and (max-width: 768px) {
+      .sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .content {
+        margin-left: 0;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="Home.html">Home</a>
+  <a href="About me.html">About Me</a>
+  <a href="Hobbies.html">Hobbies</a>
+  <a href="Interest.html">Interests</a>
+  <a href="Sites.html">My Favorite Sites</a>
+</div>
+
+<div class="content">
+  <h1>Welcome to Barack's World</h1>
+  <p>Hey there! 👋 I'm <strong>Barack</strong>, a 15-year-old with a passion for exploring new things, learning about technology, and having fun. This is my personal website where I share a bit about who I am, my hobbies, and some of my favorite things online. Take a look around!</p>
+  
+  <img class="img-fluid;" src="grammy.png" alt="Barack's Picture or Artwork">
+</div>
+
+</body>
+</html>

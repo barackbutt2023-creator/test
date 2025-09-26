@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Barack</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e6f2ff; /* Soft blue background */
+      color: #1a1a1a;
+    }
+
+    /* Side navigation */
+    .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #002244; /* Deep modern blue */
+      overflow-x: hidden;
+    }
+
+    .sidenav a {
+      color: white;
+      padding: 16px 24px;
+      text-decoration: none;
+      display: block;
+      font-size: 18px;
+      transition: background 0.3s;
+    }
+
+    .sidenav a:hover {
+      background-color: #0057b8;
+      color: #fff;
+    }
+
+    /* Main content */
+    .content {
+      margin-left: 200px;
+      padding: 40px 30px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #003366;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    img {
+      display: block;
+      margin: 30px auto;
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    @media screen and (max-width: 768px) {
+      .sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .content {
+        margin-left: 0;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="Home.html">Home</a>
+  <a href="About me.html">About Me</a>
+  <a href="Hobbies.html">Hobbies</a>
+  <a href="Interest.html">Interests</a>
+  <a href="Sites.html">My Favorite Sites</a>
+</div>
+
+<div class="content">
+  <h2>About Me</h2>
+  <p>Hi! I'm <strong>Barack</strong>, a 15-year-old student with big dreams and a curious mind. I enjoy learning new things, especially when it comes to technology, creativity, and the world around me. I'm someone who likes to explore ideas, build things, and have fun along the way.</p>
+  
+  <p>Whether I'm diving into my hobbies, hanging out with friends, or just thinking about the next big thing I want to do, I always try to stay true to myself. This website is my little space on the internet to share who I am, what I love, and what makes me... well, me!</p>
+
+  <img class="img-fluid;" src="no.jpg" alt="A picture of Barack or something meaningful">
+</div>
+
+</body>
+</html>
