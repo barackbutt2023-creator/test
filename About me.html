@@ -1,76 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About Barack</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
   <style>
     * {
       box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
     body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #e6f2ff; /* Soft blue background */
+      font-family: 'Roboto', sans-serif;
+      background-color: #e6f0ff; /* Light modern blue */
       color: #1a1a1a;
     }
 
-    /* Side navigation */
+    /* Sidebar */
     .sidenav {
       height: 100%;
-      width: 200px;
+      width: 220px;
       position: fixed;
-      z-index: 1;
       top: 0;
       left: 0;
-      background-color: #002244; /* Deep modern blue */
-      overflow-x: hidden;
+      background-color: #002b5c; /* Deep modern blue */
+      padding-top: 20px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.2);
     }
 
     .sidenav a {
-      color: white;
-      padding: 16px 24px;
+      padding: 15px 25px;
       text-decoration: none;
-      display: block;
       font-size: 18px;
-      transition: background 0.3s;
+      color: #ffffff;
+      display: block;
+      transition: background 0.3s, color 0.3s;
     }
 
     .sidenav a:hover {
-      background-color: #0057b8;
-      color: #fff;
+      background-color: #0057b8; /* Lighter blue on hover */
+      color: #ffffff;
     }
 
     /* Main content */
     .content {
-      margin-left: 200px;
-      padding: 40px 30px;
+      margin-left: 240px;
+      padding: 40px;
+      max-width: 900px;
     }
 
     h2 {
-      text-align: center;
-      color: #003366;
       font-size: 32px;
+      font-weight: 700;
+      color: #003366;
       margin-bottom: 20px;
+      text-align: center;
     }
 
     p {
       font-size: 18px;
       line-height: 1.6;
-      max-width: 800px;
-      margin: 0 auto;
+      margin-bottom: 16px;
     }
 
     img {
-      display: block;
-      margin: 30px auto;
+      margin-top: 30px;
       width: 100%;
       max-width: 700px;
       height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     @media screen and (max-width: 768px) {
@@ -78,6 +82,7 @@
         width: 100%;
         height: auto;
         position: relative;
+        box-shadow: none;
       }
 
       .content {
@@ -103,9 +108,8 @@
   
   <p>Whether I'm diving into my hobbies, hanging out with friends, or just thinking about the next big thing I want to do, I always try to stay true to myself. This website is my little space on the internet to share who I am, what I love, and what makes me... well, me!</p>
 
-  <img class="img-fluid;" src="no.jpg" alt="A picture of Barack or something meaningful">
+  <img src="no.jpg" alt="A picture of Barack or something meaningful" class="img-fluid" />
 </div>
 
 </body>
 </html>
-
